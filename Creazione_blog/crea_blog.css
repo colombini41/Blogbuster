@@ -1,0 +1,188 @@
+
+
+/* Corpo */ 
+
+#titoletto {
+    text-align: center;
+}
+
+form {
+    margin-left: 20px;
+}
+
+/* Modifica campi */
+
+#campi_sx1, #campi_sx2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#campi_dx1, #campi_dx2 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    transform: translate(20%,0);
+    
+}
+
+
+#campi_sx2, #campi_dx2 { 
+    display: none;
+}
+p{
+    color: white;
+    font-family: 'Comfortaa';
+}
+
+#anteprima, #anteprima_sfondo {
+    width: 60%;
+    transform: translateY(40%);
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    box-shadow: 5px 5px 1px 0 hsla(0,0%,0%,.2); 
+}
+
+input, select{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif; 
+    color: black;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    background-color: #87CEEB;
+    width: 70%;
+    box-shadow: 5px 5px 1px 0 hsla(0,0%,0%,.2); 
+}
+
+#descrizione_testo{
+    transform: translate(1%,450%)
+}
+textarea {
+    transform: translate(0,100%);
+    resize: none;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    background-color: #87CEEB;
+}
+#argomento{
+    transform: translate(0,200%)
+}
+#argomento_testo{
+    transform: translateY(320%);
+}
+#titolo{
+    transform: translateY(40%);
+}
+#coautore_testo{
+    transform: translateY(400%);
+}
+#coautore{
+    transform: translateY(250%);
+}
+
+
+#altro {
+    display: none;
+    transform: translateY(150%);
+}
+
+/*prima pagina*/
+
+
+
+
+#color-picker1{
+    transform: translate(40%,0)
+
+}
+#color-picker2{
+    transform: translate(34%,-34%)
+}
+#color-picker3{
+    transform: translate(0%,70%)
+}
+
+
+#changeMe{
+    transform: translate(7%,10%);
+    resize: none;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    background-color: #87CEEB;
+    min-width: 400px;
+    max-width: 400px;
+    height: 25%;
+    display: none;
+    text-align: center;
+
+}
+
+#changeMe1{  /*textarea di modifica*/
+    resize: none;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    height: 20%;
+    min-width: 210px;
+    max-width: 210px;
+    text-align: center;
+    transform: translate(-80%,-10%)
+}
+#changeMe2{
+    transform: translate(-88%,-370%);
+    height: 10%;
+    text-align: center;
+}
+#p_fs{
+    transform: translate(-29%,1400%);
+}
+#fs{
+    transform: translate(15%,400%);
+}
+
+#bottoni_avanti{
+    text-align: center;
+    width: 50%
+}
+#avanti, #crea {
+    float: right;
+    transform: translate(100%,-30%);
+   
+}
+#annulla, #indietro{
+    float: left;
+     transform: translate(40%,70%);
+}
+
+#bottoni_invio { 
+    text-align: center;
+    display: none;
+    float: left;
+    width: 50%;
+    margin-top: -12%
+}
+
+#all {
+    display: none;
+    transform: translate(10%,0);
+}
+
+/* Menu laterale */
+
+#scritto{
+    transform: translateY(100%);
+    background-color: white;
+}
+
+#suggestion-box{
+    transform: translateY(40px);
+}
+

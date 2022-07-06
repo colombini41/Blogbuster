@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head> 
+        <meta charset= "UTF-8">
+        <link rel="stylesheet" type="text/css" href="stile.css">  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="interessi.js"></script>
+        <script type="module" src="interessi.js"></script>
+
+
+        <title> Blogbuster </title>
+    </head>
+    <body class="homepage" id="body_interessi">
+        <div class="container">
+            <div> 
+            <img src="Immagini/loghetto.png" id="logo">
+            </div>
+            <h3 id="argomento" class="titoli_argomento">Scegli 3 argomenti che ti piacerebbe approfondire</h3>
+            <h3 id="sottoArgomento" class="titoli_argomento" style="display: none;">Scegli 3 sotto argomenti che ti piacerebbe approfondire</h3>
+
+             <script> 
+                    $(function(){
+                        $("#avanti").click(function(){
+                            $("#argomento").hide();
+                            $("#sottoArgomento").show();
+                            
+                        });                        
+                    });
+
+                </script>
+
+            <div class="quadrato">
+                <form id="interessi" method="post" action="interessi.php" >                       
+                    <img src= "Immagini/Argomenti/sport.jpg" class="argomento" id="sport" name="sport"> 
+
+                        <fieldset id="fieldset_sport">
+
+                            <legend><p>Sport</p></legend>
+
+                            <img src="Immagini/Sottoargomenti/1.jpg" class="sport sottoArgomento" id="1" name="Sport di squadra" > 
+                   
+                            <img src="Immagini/Sottoargomenti/2.jpg" class="sport sottoArgomento" id="2" name="Sport individuali"> 
+                  
+                            <img src="Immagini/Sottoargomenti/3.jpg" class="sport sottoArgomento" id="3" name="Giornalismo sportivo">
+                            
+                        </fieldset>
+                
+                   
+                    <img src= "Immagini/Argomenti/elettronica.jpg" class="argomento" id="elettronica" name="elettronica"> 
+                        
+                        <fieldset id="fieldset_elettronica">
+
+                            <legend><p>Elettronica</p></legend>
+
+                            <img src= "Immagini/Sottoargomenti/4.jpg" class="elettronica sottoArgomento" id="4" name="Computer e Internet">
+                  
+                            <img src= "Immagini/Sottoargomenti/5.jpg" class="elettronica sottoArgomento" id="5" name="Recensioni di prodotti">
+                  
+                            <img src= "Immagini/Sottoargomenti/6.jpg" class="elettronica sottoArgomento" id="6" name="Innovazioni">
+
+                        </fieldset>
+
+                
+                    <img src= "Immagini/Argomenti/intrattenimento.jpg"  class="argomento" id="intrattenimento" name="intrattenimento">
+
+                        <fieldset id="fieldset_intrattenimento">
+
+                                <legend><p>Intrattenimento</p></legend>
+         
+                            <img src= "Immagini/Sottoargomenti/7.jpg" class="intrattenimento sottoArgomento" id="7" name="Musica">
+                  
+                            <img src= "Immagini/Sottoargomenti/8.jpg" class="intrattenimento sottoArgomento" id="8" name="Cinema">
+                  
+                            <img src= "Immagini/Sottoargomenti/9.jpg" class="intrattenimento sottoArgomento" id="9" name="Serie TV">
+
+                        </fieldset>
+
+                
+                    <img src= "Immagini/Argomenti/informazione.jpg"  class="argomento" id="informazione" name="informazione">
+                        
+                        <fieldset id="fieldset_informazione">
+
+                            <legend><p>Informazione</p></legend>
+                        
+                            <img src= "Immagini/Sottoargomenti/10.jpg" class="informazione sottoArgomento" id="10" name="Politica">
+                  
+                            <img src= "Immagini/Sottoargomenti/11.jpg" class="informazione sottoArgomento" id="11" name="Cultura">
+                  
+                            <img src= "Immagini/Sottoargomenti/12.jpg" class="informazione sottoArgomento" id="12" name="Scienza">
+
+                        </fieldset>
+
+                    <img src= "Immagini/Argomenti/stile.jpg"  class="argomento" id="stile" name="stile">
+
+                        <fieldset id="fieldset_stile">
+
+                            <legend><p>Stile</p></legend>
+                        
+                            <img src= "Immagini/Sottoargomenti/13.jpg" class="stile sottoArgomento" id="13" name="Moda">
+                  
+                            <img src= "Immagini/Sottoargomenti/14.jpg" class="stile sottoArgomento" id="14" name="Cosmetici">
+                  
+                            <img src= "Immagini/Sottoargomenti/15.jpg" class="stile sottoArgomento" id="15" name="Design">
+
+                        </fieldset>
+
+                
+                    <img src= "Immagini/Argomenti/alimentazione.jpg"  class="argomento" id="alimentazione" name="alimentazione">
+         
+                       <fieldset id="fieldset_alimentazione">
+
+                            <legend><p>Alimentazione</p></legend>
+
+                            <img src= "Immagini/Sottoargomenti/16.jpg" class="alimentazione sottoArgomento" id="16" name="Ricette">
+                  
+                            <img src= "Immagini/Sottoargomenti/17.jpg" class="alimentazione sottoArgomento" id="17" name="Cibo etnico">
+                  
+                            <img src= "Immagini/Sottoargomenti/18.jpg" class="alimentazione sottoArgomento" id="18" name="Ristorazione">
+                    
+                        </fieldset>
+                
+                    <img src= "Immagini/Argomenti/mondo.jpg"  class="argomento" id="mondo" name="mondo">
+    
+                        <fieldset id="fieldset_mondo">
+
+                            <legend><p>Mondo</p></legend>
+
+                            <img src= "Immagini/Sottoargomenti/19.jpg" class="mondo sottoArgomento" id="19" name="Viaggi">
+                  
+                            <img src= "Immagini/Sottoargomenti/20.jpg" class="mondo sottoArgomento" id="20" name="Etnie e tradizioni">
+
+                            <img src= "Immagini/Sottoargomenti/21.jpg" class="mondo sottoArgomento" id="21" name="Ambiente">
+                    
+                        </fieldset>
+                
+                    <img src= "Immagini/Argomenti/scrittura.jpg"  class="argomento" id="scrittura" name="scrittura"> 
+                        
+                        <fieldset id="fieldset_scrittura">
+
+                            <legend><p>Scrittura</p></legend>
+                       
+                            <img src= "Immagini/Sottoargomenti/22.jpg" class="scrittura sottoArgomento" id="22" name="Poesia"> 
+                   
+                            <img src= "Immagini/Sottoargomenti/23.jpg" class="scrittura sottoArgomento" id="23" name="Narrativa"> 
+                   
+                            <img src= "Immagini/Sottoargomenti/24.jpg" class="scrittura sottoArgomento" id="24" name="Recensioni"> 
+                    
+                        </fieldset>
+                
+                    <img src= "Immagini/Argomenti/salute.jpg"  class="argomento" id="salute" name="salute">
+                        
+                        <fieldset id="fieldset_salute">
+
+                            <legend><p>Salute</p></legend>   
+                            
+                            <img src= "Immagini/Sottoargomenti/25.jpg"class="salute sottoArgomento" id="25" name="Fitness">
+                  
+                            <img src= "Immagini/Sottoargomenti/26.jpg"class="salute sottoArgomento" id="26" name="Medicina">
+                  
+                            <img src= "Immagini/Sottoargomenti/27.jpg"class="salute sottoArgomento" id="27" name="Mangiare sano">
+
+                        </fieldset>
+
+                </form>
+            </div>
+        </br>
+        </br>
+            <div>
+                <input type="button" class="button_argomenti" id="avanti" value="Avanti" onclick="manda_dati()"> </input>
+            </div>
+            <script>
+
+                function manda_dati(){
+                    alert(y1);
+                }
+
+            </script>
+
+            <div id="second_button">
+                <input type="button" class="button_argomenti" id="indietro" value="Indietro" > </input>
+                <input type="button" class="button_argomenti" id="conferma" value="Conferma" > </input>
+            </div>
+        </div>
+    </body> 
+</html>

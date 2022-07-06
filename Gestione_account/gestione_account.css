@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body{ padding: 0; text-align: center; font-family: 'Montserrat', sans-serif; }
+
+h2{font-size: 25px; font-family: 'Comfortaa', cursive;color: white;text-align: center;}
+span{font-size:25px; font-family: 'Quicksand', sans-serif; color: black;}
+p{font-size:15px; font-family: 'Quicksand', sans-serif; color: black;}
+
+/*-----------------------------------
+            Contenitori e dettagli comuni
+------------------------------------*/
+.container{  
+    display: table; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%;
+    z-index: 0;
+}
+
+.quadrato {
+    background-color: #669D;
+    background-size: 550px;
+    border-style: solid; 
+    border-width: 5px; 
+    margin-top: 3%;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block; 
+    width: 550px; 
+    height: 350px;
+    border-radius: 15px; 
+}
+
+#campi_sx, #campi_dx {
+    width: 200px;
+    height: 350px;
+    float: left;
+    margin-top: 20px;
+}
+
+#campi_sx{
+    margin-left: 30px;
+}
+
+#campi_dx {
+    margin-left: 50px;
+}
+
+form .error, .span_controllo{
+    color: black;
+    font-size: 15px;
+    display: block;
+    color: white;
+}
+
+
+/*-----------------------------------
+   form di registrazione
+---------------------------------------*/
+
+.dati { 
+    width: 250px; 
+    height: 90px;
+    margin-top: 7px;
+}
+
+.dati_label{
+    width: 250px;
+    height: 45px;
+}
+
+.erroreTesto {
+    width: 250px;
+    height: 45px;
+    z-index: 0;
+    margin-top: 7px;
+    float:left; 
+    
+} 
+
+.corpo input {
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif; 
+    color: black;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    background-color: #87CEEB;
+    width: 200px;
+}
+#bottone_elimina_account{
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 38%;
+    transform: translate(232px,-128px);
+    text-decoration: none;
+    background-color: indianred;
+    color: black;
+}
+#annulla_modifiche{
+    transform: translate(-240px);
+}
+#confirm{
+    transform: translate(130px,-98%);
+}

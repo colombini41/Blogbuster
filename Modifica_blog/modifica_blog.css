@@ -1,0 +1,118 @@
+
+ #titoletto {
+    text-align: center;
+}
+
+form {
+    margin-left: 65px;
+}
+
+/* Modifica campi */
+
+
+#campi_dx, #campi_sx{
+    transform: translate(10%,8%)
+}
+#campi_sx {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#campi_dx {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+input, select{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif; 
+    color: black;
+    border: 3px solid black;
+    border-radius:5px;
+    background-color: #87CEEB;
+    width: 150px;
+    height: 25px;
+    box-shadow: 5px 5px 1px 0 hsla(0,0%,0%,.2); 
+}
+
+select {
+    height: 32.3px;
+}
+
+#all {
+    color: white;
+    font-family: 'Comfortaa';
+    transform: translate(3%,20%);
+}
+
+#color1, #color2 {
+    width: 150px;
+}
+
+.color_picker{
+    width:30%;
+    resize: none;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius:5px;
+    border-color: black;
+    text-align: center;
+ 
+}
+
+#changeMe{
+    min-width: 400px;
+    max-width: 400px;
+    height: 18%;
+    transform: translate(-9%,30%);
+}
+
+#changeMe1{  /*textarea di modifica*/
+    height: 50px;
+    min-width: 210px;
+    max-width: 210px;
+    transform: translate(-75%,95%);
+    position: relative;
+    
+}
+
+#changeMe2{
+    width: 10%;
+    transform: translate(-71%,800%);  
+    position: absolute;
+    z-index: 2;
+}
+
+#label_fs{
+    color: white;
+    font-family: 'Comfortaa';
+    margin-left: 6%;
+    margin-bottom: -10%;
+    transform: translate(12%,1460%)
+
+}
+
+#fs{
+    transform: translate(-5%,400%)
+}
+
+#color-picker3{
+    transform: translate(0,120%);
+}
+
+#label_text_color{
+    color: white;
+    font-family: 'Comfortaa';
+    margin-left: 13px;
+}
+
+#bottoni_invio { 
+    text-align: center;
+    transform: translateX(35px);
+    float: left;
+}
+
+
+
